@@ -107,7 +107,7 @@ from sklearn.linear_model import *
 from sklearn.tree import *
 from sklearn.ensemble import *
 from sklearn.neighbors import *
-from xgboost import XGBRegressor
+#from xgboost import XGBRegressor
 
 lr = LinearRegression()
 lr_res,ypred_lr = eval_model(lr,'LinReg')
